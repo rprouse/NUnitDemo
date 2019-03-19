@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>NUnit.Demo.Tests</RootNamespace>
+
+    <AssemblyName>NUnit.Demo.Tests</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

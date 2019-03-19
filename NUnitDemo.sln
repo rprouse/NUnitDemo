@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitDemo", "NUnitDemo\NUnitDemo.csproj", "{EB0501DB-45CD-4CB8-B16C-508A45459D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.Demo.Tests", "NUnit.Demo.Tests\NUnit.Demo.Tests.csproj", "{2B5A92BB-8194-4271-82E3-C48CA3B5523A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EB0501DB-45CD-4CB8-B16C-508A45459D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB0501DB-45CD-4CB8-B16C-508A45459D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB0501DB-45CD-4CB8-B16C-508A45459D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB0501DB-45CD-4CB8-B16C-508A45459D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5A92BB-8194-4271-82E3-C48CA3B5523A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5A92BB-8194-4271-82E3-C48CA3B5523A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5A92BB-8194-4271-82E3-C48CA3B5523A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5A92BB-8194-4271-82E3-C48CA3B5523A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
