@@ -22,4 +22,10 @@
     <ProjectReference Include="..\NUnit.Demo\NUnit.Demo.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="NUnit.Demo.Tests.runnsettings">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

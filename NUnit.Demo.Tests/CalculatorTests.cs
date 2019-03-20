@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace NUnit.Demo.Tests
 {
-    public class TestCalculator
+    public class CalculatorTests
     {
         #region Setup
 

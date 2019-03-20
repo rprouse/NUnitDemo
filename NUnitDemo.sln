@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23B43632-B4D4-4A09-9913-488982AB734F}"
 	ProjectSection(SolutionItems) = preProject
 		NuGet.config = NuGet.config
+		NUnit.Demo.Tests.runsettings = NUnit.Demo.Tests.runsettings
 	EndProjectSection
 EndProject
 Global

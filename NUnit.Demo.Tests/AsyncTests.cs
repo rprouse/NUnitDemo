@@ -6,7 +6,7 @@ using NUnit.Framework;
 
 namespace NUnit.Demo.Tests
 {
-    public class TestAsync
+    public class AsyncTests
     {
         [TestCase(0, 10)]
         [TestCase(-100, 0)]
