@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace NUnit.Demo
+namespace NUnit.Demo.Tests
 {
     public class TestCalculator
     {
