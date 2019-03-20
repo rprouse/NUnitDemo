@@ -3,8 +3,10 @@ using NUnit.Framework;
 
 namespace NUnit.Demo
 {
-    public class Tests
+    public class TestAdd
     {
+        #region Setup
+
         Calculator calc;
 
         [SetUp]
@@ -12,6 +14,10 @@ namespace NUnit.Demo
         {
             calc = new Calculator();
         }
+
+        #endregion
+
+        #region TestCaseSource
 
         [TestCaseSource(nameof(AddData))]
         public void TestAdd(int x, int y, int expected)
@@ -28,5 +34,17 @@ namespace NUnit.Demo
             yield return new TestCaseData(100, 0, 100);
             yield return new TestCaseData(int.MinValue, int.MaxValue, -1);
         }
+
+        #endregion
+
+        #region Assert.Throws
+
+        [Test]
+        public void DivideByZeroThrowsArgumentException()
+        {
+            Assert.That(() => calc.Divide(10, 0), Throws.ArgumentException.With.Message.EqualTo("Cannot divide by zero"));
+        }
+
+        #endregion
     }
 }

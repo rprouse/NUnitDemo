@@ -10,6 +10,10 @@ namespace NUnit.Demo
 
         public int Multiply(int x, int y) => x * y;
 
-        public int Divide(int x, int y) => x / y;
+        public int Divide(int x, int y)
+        {
+            if (y == 0) throw new ArgumentException("Cannot divide by zero");
+            return x / y;
+        }
     }
 }
