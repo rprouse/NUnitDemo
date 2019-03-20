@@ -37,6 +37,19 @@ namespace NUnit.Demo
 
         #endregion
 
+        #region Values
+
+        [Test]
+        public void TestSubtract([Values(1, 10, 20, 201, -1024)]int x, [Values(12, 18, -2048, 548)] int y)
+        {
+            int result = calc.Subtract(x, y);
+            int expected = x - y;
+
+            Assert.That(result, Is.EqualTo(expected));
+        }
+
+        #endregion
+
         #region Assert.Throws
 
         [Test]
